@@ -4,7 +4,8 @@ import discord
 from discord import app_commands
 from discord.ext import tasks
 from datetime import datetime
-import os, json
+import json
+from db import load_json, save_json
 
 # === Hilfsfunktionen ===
 def load_config(guild_id):
@@ -12,20 +13,13 @@ def load_config(guild_id):
         return json.load(f)
 
 def get_data_path(guild_id):
-    path = f"data/{guild_id}"
-    os.makedirs(path, exist_ok=True)
-    return f"{path}/order_data.json"
+    return "order_data"
 
 def load_order_data(guild_id):
-    path = get_data_path(guild_id)
-    if not os.path.exists(path):
-        return {"orders": [], "next_id": 1}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return load_json(guild_id, _get_key(), {"orders": [], "next_id": 1})
 
 def save_order_data(guild_id, data):
-    with open(get_data_path(guild_id), "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+    save_json(guild_id, _get_key(), data)
 
 # === Hauptfunktion ===
 def register_create_order_command(bot):

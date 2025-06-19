@@ -1,9 +1,9 @@
 # name_change.py
 import discord
 import os
-import csv
 import json
 from logs import debug
+from db import is_user_verified, add_verification
 from discord import app_commands
 
 def setup(bot):
@@ -91,30 +91,12 @@ class NameModal(discord.ui.Modal, title="Verifizierung"):
             "User-ID": str(interaction.user.id)
         }
 
-        os.makedirs("data", exist_ok=True)
-        csv_path = f"data/data_{self.guild_id}.csv"
-        header = ["Vorname", "Nachname", "Telefonnummer", "Rang", "Mitglied seit", "User-ID"]
-
-        file_exists = os.path.isfile(csv_path)
-        user_exists = False
-
-        if file_exists:
-            with open(csv_path, 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f, delimiter=';')
-                for row in reader:
-                    if row.get("User-ID") == str(interaction.user.id):
-                        user_exists = True
-                        break
-
-        if user_exists:
+        if is_user_verified(self.guild_id, str(interaction.user.id)):
             await interaction.followup.send("⚠️ Du bist bereits verifiziert.", ephemeral=True)
             return
 
-        with open(csv_path, 'a', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=header, delimiter=';')
-            if not file_exists:
-                writer.writeheader()
-            writer.writerow(user_entry)
+        add_verification(self.guild_id, user_entry)
+        debug(f"📝 Verifizierungsdaten für {interaction.user} gespeichert")
 
         debug(f"📝 Verifizierungsdaten für {interaction.user} gespeichert in {csv_path}")
 
