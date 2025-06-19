@@ -1,0 +1,12 @@
+# Virtual environment
+venv/
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Temporary files
+*.swp
+*.tmp
+
+# OS generated files
+.DS_Store

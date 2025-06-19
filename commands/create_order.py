@@ -1,5 +1,4 @@
 import asyncio
-# commands/create_order.py
 import discord
 from discord import app_commands
 from discord.ext import tasks
@@ -25,7 +24,7 @@ def save_order_data(guild_id, data):
 def register_create_order_command(bot):
     active_orders = {}
 
-    class ConfirmButton(discord.ui.View):  # ← HIER EINFÜGEN
+    class ConfirmButton(discord.ui.View):
         def __init__(self, message):
             super().__init__(timeout=None)
             self.message = message
@@ -40,6 +39,7 @@ def register_create_order_command(bot):
             new_embed = embed.copy()
             if "Status: ❌ Offen" in new_embed.description:
                 new_embed.description = new_embed.description.replace("Status: ❌ Offen", "Status: ✅ Bezahlt")
+                await interaction.response.defer(ephemeral=True)
                 await self.message.edit(embed=new_embed, view=None)
 
 

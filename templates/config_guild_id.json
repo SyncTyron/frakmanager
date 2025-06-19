@@ -10,7 +10,7 @@
   ],
   "embed": {
     "title": "Willkommen auf {guild_name}!",
-    "description": "Verifiziere dich um ein Vollwertiges Mitglied zu werden."
+    "description": "Verifiziere dich um ein vollwertiges Mitglied zu werden."
   },
   "rules_embed": {
     "title": "Regeln auf {guild_name}",
