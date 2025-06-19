@@ -1,24 +1,16 @@
 
 # checklist.py
-import os
-import json
-
-def _get_data_path(guild_id: str, mode: str) -> str:
-    folder = f"data/{guild_id}"
-    os.makedirs(folder, exist_ok=True)
-    return os.path.join(folder, f"{mode}_data.json")
+from db import load_json, save_json
+def _get_data_key(mode: str) -> str:
+    return f"{mode}_data"
 
 def _load_data(guild_id: str, mode: str) -> dict:
-    path = _get_data_path(guild_id, mode)
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"checklists": [], "next_id": 1}
+    key = _get_data_key(mode)
+    return load_json(guild_id, key, {"checklists": [], "next_id": 1})
 
 def _save_data(guild_id: str, mode: str, data: dict):
-    path = _get_data_path(guild_id, mode)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
+    key = _get_data_key(mode)
+    save_json(guild_id, key, data)
 
 def create_checklist_entry(guild_id, datum, uhrzeit, ort, members, mode="lineup"):
     data = _load_data(guild_id, mode)
