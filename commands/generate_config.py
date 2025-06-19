@@ -23,7 +23,7 @@ def register_generate_config_command(bot):
                 config_data['guild_id'] = guild_id
                 config_data.setdefault('embed', {
                     "title": "Willkommen auf {guild_name}!",
-                    "description": "Verifiziere dich um ein Vollwertiges Mitglied zu werden."
+                    "description": "Verifiziere dich um ein vollwertiges Mitglied zu werden."
                 })
                 config_data.setdefault('rules_embed', {
                     "title": "Regeln auf {guild_name}",

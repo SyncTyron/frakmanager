@@ -39,7 +39,7 @@ def register_create_verify_command(bot):
             return
 
         title = verify_config.get("title", f"Willkommen auf {interaction.guild.name}!")
-        description = verify_config.get("description", "Verifiziere dich um ein Vollwertiges Mitglied zu werden.")
+        description = verify_config.get("description", "Verifiziere dich um ein vollwertiges Mitglied zu werden.")
         thumbnail_url = verify_config.get("thumbnail_url", "")
         color = int(verify_config.get("color", "ffffff"), 16)
 

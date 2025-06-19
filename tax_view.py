@@ -1,5 +1,3 @@
-
-# taxlineup_view.py
 import discord
 from checklist import update_checklist_status, get_checklist
 from config_loader import load_config
