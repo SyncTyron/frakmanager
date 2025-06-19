@@ -1,5 +1,5 @@
-
 from db import load_json, save_json
+
 def _get_data_key(mode: str) -> str:
     return f"{mode}_data"
 
