@@ -1,23 +1,16 @@
 
 import discord
 from discord import app_commands, ui
-from discord.ext import commands
-import os
-import json
 from datetime import datetime
 from logs import debug
 from config_loader import load_config
+from db import load_json, save_json
 
-def load_data(path):
-    if os.path.exists(path):
-        with open(path, "r") as f:
-            return json.load(f)
-    return {}
+def load_data(guild_id: str):
+    return load_json(guild_id, "blacklist", {"entries": []})
 
-def save_data(path, data):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
+def save_data(guild_id: str, data):
+    save_json(guild_id, "blacklist", data)
 
 def format_entry(entry, template):
     return template.format(**entry)
@@ -46,8 +39,7 @@ def register_blacklist_commands(bot):
                 if modal_interaction.channel.id != config.get("command_channel_id"):
                     return await modal_interaction.response.send_message("Dieser Command ist hier nicht erlaubt.", ephemeral=True)
 
-                path = f"data/{guild_id}/blacklist.json"
-                data = load_data(path)
+                data = load_data(guild_id)
                 entries = data.get("entries", [])
                 new_id = len(entries) + 1
 
@@ -64,7 +56,7 @@ def register_blacklist_commands(bot):
 
                 entries.append(entry)
                 data["entries"] = entries
-                save_data(path, data)
+                save_data(guild_id, data)
 
                 embed = discord.Embed(
                     title=f"Blacklist Eintrag #{new_id}, {timestamp}",
@@ -85,8 +77,8 @@ def register_blacklist_commands(bot):
         if not config.get("enabled") or not config.get("allow_remove_command"):
             return await interaction.response.send_message("Befehl nicht erlaubt.", ephemeral=True)
 
-        path = f"data/{interaction.guild.id}/blacklist.json"
-        data = load_data(path)
+        guild_id = str(interaction.guild.id)
+        data = load_data(guild_id)
         entries = data.get("entries", [])
         new_entries = [e for e in entries if e["id"] != id]
 
@@ -94,7 +86,7 @@ def register_blacklist_commands(bot):
             return await interaction.response.send_message("Eintrag nicht gefunden.", ephemeral=True)
 
         data["entries"] = new_entries
-        save_data(path, data)
+        save_data(guild_id, data)
         await interaction.response.send_message(f"Eintrag #{id} entfernt. Bitte Nachricht manuell löschen.", ephemeral=True)
 
     @app_commands.command(name="check_blacklist", description="Suche nach einer Handynummer auf der Blacklist")
