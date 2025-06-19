@@ -1,0 +1,21 @@
+{
+  "guild_id": "GUILD_ID_WIRD_AUTOMATISCH_EINGEFÜGT",
+  "verify_channel_id": "123456789012345678",
+  "verify_message_id": "",
+  "rules_channel_id": "123456789012345678",
+  "color": "ffffff",
+  "roles": [
+    "111111111111111111",
+    "222222222222222222"
+  ],
+  "embed": {
+    "title": "Willkommen auf {guild_name}!",
+    "description": "Verifiziere dich um ein Vollwertiges Mitglied zu werden."
+  },
+  "rules_embed": {
+    "title": "Regeln auf {guild_name}",
+    "description": "1. Kein Spam\n2. Respektvoller Umgang\n3. Keine Werbung",
+    "thumbnail_url": "https://example.com/dein-bild.png",
+    "color": "ff0000"
+  }
+}

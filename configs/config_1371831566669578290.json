@@ -1,0 +1,27 @@
+{
+    "guild_id": "1371831566669578290",
+    "verify_channel_id": "1374827682252193862",
+    "verify_message_id": "1376288871305973782",
+    "rules_channel_id": "1374827682252193862",
+    "color": "6a0606",
+    "roles": [
+        "1374831453900111903",
+        "1374831598381301932"
+    ],
+    "embed": {
+        "title": "Willkommen auf {guild_name}!",
+        "description": "Verifiziere dich um ein Vollwertiges Mitglied zu werden."
+    },
+    "rules_embed": {
+        "title": "{guild_name} Discord Regeln!",
+        "description": "\ud83d\udcdc Allgemeine Regeln\n1. Respektvoller Umgang: Behandle jedes Mitglied mit Respekt \u2013 Beleidigungen, Hetze oder toxisches Verhalten werden nicht toleriert.\n2. Keine Diskriminierung: Rassismus, Sexismus, Homophobie oder \u00e4hnliche diskriminierende Aussagen f\u00fchren zum sofortigen Ausschluss.\n3. Spam ist verboten: Unterlasse Spam, Werbung oder das st\u00e4ndige Posten irrelevanter Inhalte.\n4. Werbung untersagt: Werbung f\u00fcr andere Server, Communities oder Produkte ist ohne ausdr\u00fcckliche Genehmigung verboten.\n5. Kein Missbrauch von Ping-Funktionen: Erw\u00e4hne keine Rollen oder User grundlos.\n\n\ud83c\udfad Rollenspiel & Ingame-Regeln\n1. RP bleibt RP: Was im RP passiert, bleibt im RP \u2013 OOC-Diskussionen \u00fcber Ingame-Situationen sind zu unterlassen.\n2. Metagaming verboten: Nutze keine Informationen aus Discord oder Twitch/Streams f\u00fcr deinen Ingame-Vorteil.\n3. Power-RP unterlassen: Erzwinge keine Handlungen von anderen Spielern ohne deren Reaktionsm\u00f6glichkeit.\n4. Fail-RP vermeiden: Verhalten, das dem RP schadet oder unrealistisch ist, ist zu vermeiden.\n5. Screenshots & Beweise: Bei Regelverst\u00f6\u00dfen sind Beweise (z.B. Video/Audio) sachlich und an die richtige Stelle zu senden.\n\n\ud83c\udfe2 Fraktionsbezogene Regeln\n1. Befehle respektieren: Folge den Anweisungen deiner Fraktionsleitung und halte dich an die internen Strukturen.\n2. Vertraulichkeit: Interne Informationen der Fraktion d\u00fcrfen nicht nach au\u00dfen getragen werden.\n3. Aktivit\u00e4tspflicht: Eine gewisse Ingame-Aktivit\u00e4t ist Pflicht \u2013 Abwesenheiten sind rechtzeitig zu melden.\n4. Uniform & Ausr\u00fcstung: Nutze nur die von der Fraktion freigegebene Kleidung und Ausr\u00fcstung.\n5. Funkdisziplin: Im Funkkanal herrscht Ordnung \u2013 kein unn\u00f6tiges Reden, klare Kommunikation.\n\n\ud83d\udcac Discord-Nutzung\n1. Profilbild & Status: Dein Profilbild und Status d\u00fcrfen keine anst\u00f6\u00dfigen Inhalte enthalten.\n2. Voicechannel-Regeln: Betrete nur Channels, wenn du nicht IC bist.\n3. Regelkenntnis: Jeder ist verpflichtet, die Regeln zu kennen und regelm\u00e4\u00dfig auf Updates zu achten.\n",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    },
+    "frakrules_embed": {
+        "title": "{guild_name} Fraktionsregeln!",
+        "description": "\ud83d\udcdc Hier stehen eure fraktionsspezifischen Regeln...",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    }
+}

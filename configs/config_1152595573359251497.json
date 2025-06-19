@@ -1,0 +1,252 @@
+{
+    "guild_id": "1152595573359251497",
+    "verify_embed": {
+        "verify_channel_id": "1377573946190204981",
+        "verify_message_id": "1377625341312368760",
+        "title": "Willkommen auf {guild_name}!",
+        "description": "Klicke auf den Button um dich zu verifizieren.",
+        "thumbnail_url": "",
+        "color": "6a0606",
+        "roles": [
+            "1377573923788558406",
+            "1377573920630112256"
+        ]
+    },
+    "rules_embed": {
+        "rules_channel_id": "1377573946190204981",
+        "title": "{guild_name} Discord Regeln!",
+        "description": "\ud83d\udcdc Allgemeine Regeln\n1. Respektvoller Umgang: Behandle jedes Mitglied mit Respekt \u2013 Beleidigungen, Hetze oder toxisches Verhalten werden nicht toleriert.\n2. Keine Diskriminierung: Rassismus, Sexismus, Homophobie oder \u00e4hnliche diskriminierende Aussagen f\u00fchren zum sofortigen Ausschluss.\n3. Spam ist verboten: Unterlasse Spam, Werbung oder das st\u00e4ndige Posten irrelevanter Inhalte.\n4. Werbung untersagt: Werbung f\u00fcr andere Server, Communities oder Produkte ist ohne ausdr\u00fcckliche Genehmigung verboten.\n5. Kein Missbrauch von Ping-Funktionen: Erw\u00e4hne keine Rollen oder User grundlos.\n\n\ud83c\udfad Rollenspiel & Ingame-Regeln\n1. RP bleibt RP: Was im RP passiert, bleibt im RP \u2013 OOC-Diskussionen \u00fcber Ingame-Situationen sind zu unterlassen.\n2. Metagaming verboten: Nutze keine Informationen aus Discord oder Twitch/Streams f\u00fcr deinen Ingame-Vorteil.\n3. Power-RP unterlassen: Erzwinge keine Handlungen von anderen Spielern ohne deren Reaktionsm\u00f6glichkeit.\n4. Fail-RP vermeiden: Verhalten, das dem RP schadet oder unrealistisch ist, ist zu vermeiden.\n5. Screenshots & Beweise: Bei Regelverst\u00f6\u00dfen sind Beweise (z.B. Video/Audio) sachlich und an die richtige Stelle zu senden.\n\n\ud83c\udfe2 Fraktionsbezogene Regeln\n1. Befehle respektieren: Folge den Anweisungen deiner Fraktionsleitung und halte dich an die internen Strukturen.\n2. Vertraulichkeit: Interne Informationen der Fraktion d\u00fcrfen nicht nach au\u00dfen getragen werden.\n3. Aktivit\u00e4tspflicht: Eine gewisse Ingame-Aktivit\u00e4t ist Pflicht \u2013 Abwesenheiten sind rechtzeitig zu melden.\n4. Uniform & Ausr\u00fcstung: Nutze nur die von der Fraktion freigegebene Kleidung und Ausr\u00fcstung.\n5. Funkdisziplin: Im Funkkanal herrscht Ordnung \u2013 kein unn\u00f6tiges Reden, klare Kommunikation.\n\n\ud83d\udcac Discord-Nutzung\n1. Profilbild & Status: Dein Profilbild und Status d\u00fcrfen keine anst\u00f6\u00dfigen Inhalte enthalten.\n2. Voicechannel-Regeln: Betrete nur Channels, wenn du nicht IC bist.\n3. Regelkenntnis: Jeder ist verpflichtet, die Regeln zu kennen und regelm\u00e4\u00dfig auf Updates zu achten.\n",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    },
+    "frakrules_embed": {
+        "frakrules_channel_id": "1377573959863894157",
+        "title": "{guild_name} Fraktionsregeln!",
+        "description": "\ud83d\udcdc Syndikat \u2013 Fraktionsregelwerk\n\u00a71 \u2013 Grundprinzipien\n1.1. Das Syndikat ist eine kriminelle Organisation mit klaren Hierarchien und Loyalit\u00e4tsstrukturen, welche jederzeit einzuhalten sind.\n1.2. Jedes Mitglied vertritt das Syndikat mit seinem Verhalten \u2013 intern wie extern.\n1.3. Der Wille der F\u00fchrung ist bindend. Befehlsverweigerung wird nicht toleriert.\n1.4. Das Syndikat operiert mit Verschwiegenheit, Organisation und Machtbewusstsein.\n\n\u00a72 \u2013 Rangstruktur & Respekt\n2.1. Die Rangstruktur ist strikt einzuhalten.\n2.2. Respekt gegen\u00fcber h\u00f6herrangigen Mitgliedern ist Pflicht \u2013 auch im Streitfall.\n2.3. Interne Konflikte werden nicht offen oder vor Au\u00dfenstehenden ausgetragen.\n2.4. Entscheidungen der F\u00fchrung werden nicht \u00f6ffentlich diskutiert.\n\n\u00a73 \u2013 Verhalten gegen\u00fcber Au\u00dfenstehenden\n3.1. Das Syndikat agiert verdeckt. Keine unn\u00f6tige Aufmerksamkeit gegen\u00fcber Cops oder Zivilisten.\n3.2. Loyalit\u00e4t gilt nur der Fraktion. Freundschaften au\u00dferhalb d\u00fcrfen die Interessen des Syndikats nicht gef\u00e4hrden.\n3.3. Informationen \u00fcber Mitglieder, Standorte oder Aktivit\u00e4ten sind streng geheim.\n3.4. Kontakte zu anderen Fraktionen erfolgen nur auf Anweisung der F\u00fchrung.\n\n\u00a74 \u2013 Kriminelle Aktivit\u00e4ten\n4.1. Kriminelle Handlungen (Raub, Schutzgelder, Drogen, Waffenhandel etc.) sind strategisch abzustimmen.\n4.2. Kein Alleingang bei gro\u00dfen Aktionen (z.B. Banken, staatliche Geb\u00e4ude).\n4.3. Einnahmen aus Fraktionsaktionen werden gerecht verteilt \u2013 bei Missbrauch folgt Bestrafung.\n4.4. Polizeiaktionen werden nicht provoziert \u2013 Verfolgungen vermeiden, Tarnung wahren.\n\n\u00a75 \u2013 Umgang mit der Polizei\n5.1. Aussageverweigerung ist Pflicht. Aussagen oder Gest\u00e4ndnisse sind Verrat.\n5.2. Kontakt zur Polizei darf nur in Absprache mit der F\u00fchrung erfolgen.\n5.3. Zusammenarbeit mit der Polizei wird mit sofortigem Ausschluss und Charaktertod (CK) bestraft.\n\n\u00a76 \u2013 Disziplinarma\u00dfnahmen\n6.1. Verst\u00f6\u00dfe gegen dieses Regelwerk f\u00fchren zu internen Strafen (Rangverlust, Ausschluss, RP-Strafen).\n6.2. Schwere Verst\u00f6\u00dfe wie Verrat, Sabotage oder Kooperation mit Feinden f\u00fchren zum Charaktertod (CK).\n6.3. Die F\u00fchrung entscheidet \u00fcber Ma\u00dfnahmen \u2013 Diskussionen sind unerw\u00fcnscht.\n\n\u00a77 \u2013 Blood-In & Blood-Out\n7.1. Neue Mitglieder durchlaufen eine Probezeit mit Bewertung durch Mentoren.\n7.2. Ein freiwilliger Austritt ist nur nach Absprache und IC-Ausstieg (z.\u202fB. durch Exil, Fake-Tod) m\u00f6glich.\n7.3. Bei Verrat oder Flucht erfolgt ein automatischer CK.\n\n\u00a78 \u2013 Loyalit\u00e4t \u00fcber alles\n8.1. Das Syndikat steht \u00fcber dem Einzelnen. Wer gegen das Kollektiv agiert, hat keinen Platz unter uns.\n8.2. Ehre, Loyalit\u00e4t und Verschwiegenheit sind die Grundwerte jedes Mitglieds.\n\nStand: `29.05.2024` `17:30`Uhr\nGenehmigt durch: `Leaderschaft`\nG\u00fcltig f\u00fcr: alle aktiven Mitglieder des Syndikats\n",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    },
+    "sanction_embed": {
+        "sanction_channel_id": "1377573968361427071",
+        "title": "{guild_name} Sanktionen!",
+        "description": "\u00a71\tRespektlosigkeit in der Familie\n`100.000` - `250.000`\n\n\u00a72\tVerrat an der Familie\n`blood-out`\n\n\u00a73\tZusammenarbeit mit Staatsfraktionen\n`blood-out`\n\n\u00a74\tExtreme Ernste Beleidigung\n`300.000` - `500.000`\n\n\u00a75\tBaiting\n`150.000` - `250.000`\n\n\u00a76\tExtisives Gambo-Verhalten\n`400.000` - `blood-out`\n\n\u00a77\tFriendly-Fire (Schusswaffen)\n`150.000` - `250.000`\n\n\u00a78\tUnangemessenes Verhalten bei Aufstellungen\n`100.000`\n\n\u00a79\tUnangemessenes Verhalten in Gegenwart Fremder\n`100.000`\n\n\u00a710\tNicht im Funk\n`50.000` - `100.000`\n\n\u00a711\tFehlverhalten im Funk\n`200.000`\n\n\u00a712\tAufstellung (unentschuldigtes Fehlen)\n`100.000` - `200.000`\n\n\u00a713\tSchl\u00e4gereien untereinander auf offener Stra\u00dfe\n`50.000`\n\n\u00a714\tSchl\u00e4gereien in Gegenwart Fremder\n`75.000`\n\n\u00a715\tNichtumsetzung von Anweisungen\n`200.000` - `300.000`\n\n\u00a716\tWochenabgabe zu sp\u00e4t bezahlt\n`50.000 pro Tag`\n\n\u00a717\tUnn\u00f6tige Sch\u00fcsse am Anwesen\n`100.000` - `300.000`\n\n\u00a718\tKolonne nicht eingehalten\n`50.000`\n\n\u00a719\tAbwerben von Arbeitern\n`300.000`\n\n\u00a720\tNichttragen von einer Maske bei illegalen Aktivit\u00e4ten\n`50.000`\n\n\u00a721\tVersto\u00df gegen den Verhaltenskodex\n`250.000` - `blood-out`\n\n\u00a722\tAustausch Familien Interner Informationen\n`200.000` - `blood-out`\n\n",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    },
+    "vehicle_embed": {
+        "vehicle_channel_id": "1377573962246127627",
+        "title": "{guild_name} Fahrzeugordnung!",
+        "description": "Prim\u00e4r Lackierung:\nFarbcode: `P22 (Matt)`\n\nSekund\u00e4r Lackierung:\nFarbcode: `P22 (Matt)`\n\nPerleffekt:\nFarbcode: `C12`\n\nFelgen (Frei w\u00e4hlbar):\nFarbcode: `G16`\n\nInterior:\nFarbcode: `C13`\n\nLichter/Neons: `Rot`\n\nUnterboden: `Helles Rot`",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    },
+    "report_embed": {
+        "report_channel_id": "1377573977941086219",
+        "report_send_channel_id": "1378359031139405966",
+        "title": "{guild_name} Beschwerden!",
+        "description": "Wenn du dich \u00fcber ein Mitglied des Syndikats beschweren m\u00f6chtest, dann klicke auf den Button und f\u00fclle das Formular aus.\n\n**Wichtig:**\n\u30fbBeschwerden \u00fcber andere Fraktionen sind nicht erlaubt.\n\u30fbKeine Beschwerden \u00fcber Au\u00dfenstehende Personen.\n\n",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606"
+    },
+    "clothing_embed": {
+        "clothing_channel_id": "1377573963818991667",
+        "title": "{guild_name} Kleiderordnung!",
+        "description": "Alle dinge die nicht in der Kleiderordnung stehen, sind frei w\u00e4hlbar.\n\n**Wichtig:**\n\u30fbDie Kleidung muss zu Etikette passen.\n\u30fbDie Kleidung sollte deinen Charakter repr\u00e4sentieren.\n\u30fbDu repr\u00e4sentierst das Syndikat, also verhalte dich dementsprechend denn anhand deiner Kleidung f\u00e4llt alles auf uns zur\u00fcck.\n\n",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606",
+        "fields": [
+            {
+                "name": "**Herrenkleidung**",
+                "value": "Hose:\n1: `62`\n2: `2`\n\nSchuhe:\n1: `35`\n2: `3`\n\nMaske:\n1: `373`\n2: `6`\n\nWeste:\n1: `172`\n2: `0`\n",
+                "inline": true
+            },
+            {
+                "name": "**Damenkleidung**",
+                "value": "\u2699\ufe0f in Arbeit...",
+                "inline": true
+            }
+        ]
+    },
+    "ranking_embed": {
+        "ranking_channel_id": "1377573965710753935",
+        "title": "{guild_name} Rangordnung!",
+        "description": "Hier findest du alle relevanten Informationen zu R\u00e4ngen, Abgaben und Voraussetzungen f\u00fcr Rank-ups.",
+        "thumbnail_url": "https://i.ibb.co/YTLM8b99/logo.png",
+        "color": "6a0606",
+        "fields": [
+            {
+                "name": "**R\u00e4nge:**",
+                "value": "Rang 0\n\nRang 1\n\nRang 2\n\nRang 3\n\nRang 4\n\nRang 5\n\n\n\nRang 6\n\nRang 7\n\nRang 8\n\nRang 9\n\n\n\nRang 10\n\n\n\nRang 11\n\nRang 12",
+                "inline": true
+            },
+            {
+                "name": "**Wochenabgabe:**",
+                "value": "100.000$\n\n150.000$\n\n150.000$\n\n200.000$\n\n200.000$\n\n250.000$\n\n\n\n250.000$\n\n300.000$\n\n300.000$\n\n350.000$\n\n\n\n350.000$\n\n\n\n400.000$\n\n400.000$",
+                "inline": true
+            },
+            {
+                "name": "**Aufgaben ab:**",
+                "value": "/\n\n/\n\n/\n\n/\n\n/\n\n\u30fb**Ausbildungsverwaltung**\n\u30fbEinkleiden\n\u30fbEinf\u00fchren\n\n/\n\n/\n\n/\n\n\u30fb**Routenverwaltung**\n\u30fbWochenabgaben einsammeln\n\u30fbRouten verhandlungen\n\n\u30fb**Sanktionsverwaltung**\n\u30fbSanktionen aussprechen\n\u30fbZahlungen annehmen\n\n\u30fb**Alles rund um die Fraktion**\n\n\u30fb**Alles rund um die Fraktion**",
+                "inline": true
+            }
+        ]
+    },
+    "weed_roles": {
+        "sammler": {
+            "title": "Narco City | Weed Sammler",
+            "description": "Du beginnst als Sammler und erntest die Weed.\nHier solltest du das Lager (G\u00fcnstigstes f\u00fcr 25.000$ reicht aus) mit 3.000 Weed f\u00fcllen um den Verarbeiter komplett zu f\u00fcllen.",
+            "video_url": "https://youtu.be/9sA_JCYB2vc",
+            "color": "6a0606"
+        },
+        "verarbeiter": {
+            "title": "Narco City | Weed Verarbeiter",
+            "description": "Du verarbeitest das geerntete Weed zu Joints.\nBei einem vollen Verarbeiter braucht dieser Schritt 5 Stunden und bekommst anschlie\u00dfend 300 Joints raus.",
+            "video_url": "https://youtu.be/8DOMFHxHV5c",
+            "color": "6a0606"
+        },
+        "verkaeufer": {
+            "title": "Narco City | Weed Verk\u00e4ufer",
+            "description": "Du bist f\u00fcr den Verkauf Ready.\nDu kannst nun deine Joints an einen NPC verkaufen, jedoch informier dich vorher \u00fcber die Preise. der normale Preis liegt bei 100% das entspricht 988$ pro Joint und der Preis kann bis auf 130% steigen, das entspricht 1.284$ pro Joint.\nDu kannst auch an andere Spieler verkaufen, oder die Joints selber konsumieren, der Effekt eines Joints gibt dir einer 25% Weste und ist bis 4 Joints also 100% Stackbar.",
+            "video_url": "https://youtu.be/vK4XgnYi1ek",
+            "color": "6a0606"
+        }
+    },
+    "checklist_target_role_id": "1377573923788558406",
+    "checklist_control_role_id": "1377573922630926346",
+    "lineup_category_id": "1378419512130670734",
+    "summary_channel_id": "1377573961105145949",
+    "lineup_command_channel_id": "1377573961105145949",
+    "lineup_embed": {
+        "title": "\ud83d\udccb Aufstellung",
+        "description": "**\ud83d\udcc5 Datum:** {datum}\n**\ud83d\udd53 Uhrzeit:** {uhrzeit}\n**\ud83d\udccd Ort:** {ort}",
+        "color": "6a0606",
+        "footer": "Bitte seid p\u00fcnktlich!",
+        "ping_role_id": "1377573923788558406"
+    },
+    "checklist_embed": {
+        "color": "6a0606"
+    },
+    "summary_embed": {
+        "color": "6a0606"
+    },
+    "tax_checklist_target_role_id": "1377573923788558406",
+    "tax_checklist_control_role_id": "1377573922630926346",
+    "tax_lineup_category_id": "1378678628883107860",
+    "tax_summary_channel_id": "1378679585226358794",
+    "tax_lineup_command_channel_id": "1378679585226358794",
+    "tax_lineup_embed": {
+        "title": "\ud83d\udccb Wochenabgabe",
+        "description": "**Von:** {von}\n**Bis:** {bis} um {uhrzeit}\n**An:** {abgeben_an}",
+        "color": "2ecc71",
+        "footer": "Bitte seid p\u00fcnktlich!",
+        "ping_role_id": "1377573923788558406"
+    },
+    "tax_checklist_embed": {
+        "color": "6a0606"
+    },
+    "tax_summary_embed": {
+        "color": "6a0606"
+    },
+    "blacklist": {
+        "enabled": true,
+        "auto_ban_on_leave": true,
+        "auto_ban_on_kick": true,
+        "blacklist_channel_id": 1377573970231951393,
+        "command_channel_id": 1377573970231951393,
+        "entry_format": "Blacklist Eintrag #{id}, {timestamp}\n\n**Vor- Nachname:** {vorname} {nachname}\n**Handynummer:** {nummer}\n**Eingetragen:** {durch}\n**Grund:** {grund}",
+        "auto_reason_leave": "blood-out entzug",
+        "auto_reason_kick": "blood-out",
+        "allow_remove_command": true,
+        "allow_check_command": true
+    },
+    "order_command_channel_id": 1381676242784358530,
+    "order_category_ids": {
+        "schwarzmarkt": 1381675731968458934,
+        "kurzwaffen": 1381675731968458934,
+        "langwaffen": 1381675731968458934
+    },
+    "order_dropdown_options": {
+        "schwarzmarkt": [
+            {
+                "label": "Schalld\u00e4mpfer",
+                "price": "55.000$"
+            },
+            {
+                "label": "Zielfernrohr",
+                "price": "55.000$"
+            },
+            {
+                "label": "Griff",
+                "price": "55.000$"
+            },
+            {
+                "label": "Taschenlampe",
+                "price": "45.000$"
+            },
+            {
+                "label": "Erweitertes Magazin",
+                "price": "90.000$"
+            },
+            {
+                "label": "Box Magazin",
+                "price": "55.000$"
+            },
+            {
+                "label": "Trommelmagazin",
+                "price": "55.000$"
+            },
+            {
+                "label": "Laserbohrer",
+                "price": "12.000$"
+            },
+            {
+                "label": "Hackerlaptop",
+                "price": "120.000$"
+            },
+            {
+                "label": "Schwere Westen",
+                "price": "60.000$"
+            },
+            {
+                "label": "Koffer",
+                "price": "30.000$"
+            },
+            {
+                "label": "Profi Dietrich",
+                "price": "50.000$"
+            },
+            {
+                "label": "Folterstuhl",
+                "price": "22.000.000$"
+            }
+        ],
+        "kurzwaffen": [],
+        "langwaffen": []
+    },
+    "order_embeds": {
+        "overview": {
+            "title": "Bestellungen {type}",
+            "description": "**Von:** {from}\n**Bis:** {to} um {until}",
+            "footer": "Ende: {to} um {until}",
+            "color": "6a0606"
+        },
+        "item": {
+            "title": "Bestellung von {guild}",
+            "description": "Aufgegebene Bestellung\n\n{selection} \u00d7 {amount}\n\nStatus: \u274c Offen",
+            "footer": "Bestellt am {date}",
+            "color": "6a0606"
+        },
+        "summary": {
+            "title": "\ud83d\udce6 Zusammenfassung: {type}",
+            "description": "{summary}",
+            "footer": "Erstellt am {date}",
+            "color": "6a0606"
+        },
+        "personal_summary": {
+            "title": "\ud83d\udce6 Pers\u00f6nliche Zusammenfassung: {type}",
+            "description": "{summary}",
+            "footer": "Erstellt am {date}",
+            "color": "cc33ff"
+        }
+    }
+}

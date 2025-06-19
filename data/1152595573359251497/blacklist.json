@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "vorname": "Toni",
+      "nachname": "Shqiptari",
+      "nummer": "65257570",
+      "durch": "Tyron Kingston",
+      "grund": "Blood-out entzug",
+      "timestamp": "01.06.2025 16:59 Uhr"
+    },
+    {
+      "id": 2,
+      "vorname": "Rocky",
+      "nachname": "Santos",
+      "nummer": "68855715",
+      "durch": "Tyron Kingston",
+      "grund": "Blood-out entzug",
+      "timestamp": "01.06.2025 16:59 Uhr"
+    },
+    {
+      "id": 3,
+      "vorname": "Max",
+      "nachname": "Mustermann",
+      "nummer": "00000000",
+      "durch": "Test",
+      "grund": "Test",
+      "timestamp": "01.06.2025 16:04 Uhr"
+    },
+    {
+      "id": 4,
+      "vorname": "Kali",
+      "nachname": "Kahn",
+      "nummer": "91867957",
+      "durch": "Tyron Kingston",
+      "grund": "Verrat an der Familie, Bloodout Entzug",
+      "timestamp": "09.06.2025 20:56 Uhr"
+    },
+    {
+      "id": 5,
+      "vorname": "Bero",
+      "nachname": "Kahn",
+      "nummer": "X",
+      "durch": "Tyron Kingston",
+      "grund": "bloodout entzug",
+      "timestamp": "09.06.2025 20:58 Uhr"
+    }
+  ]
+}

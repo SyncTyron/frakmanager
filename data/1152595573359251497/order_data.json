@@ -1,0 +1,1073 @@
+{
+    "orders": [
+        {
+            "id": 1,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "19:40",
+            "message_id": 1381688802191605810,
+            "channel_id": 1381688800941576283,
+            "items": []
+        },
+        {
+            "id": 2,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "19:43",
+            "message_id": 1381689465029791917,
+            "channel_id": 1381689463616307300,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "19:47",
+            "message_id": 1381690373902041241,
+            "channel_id": 1381690372681633832,
+            "items": []
+        },
+        {
+            "id": 4,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "19:48",
+            "message_id": 1381690689838125098,
+            "channel_id": 1381690688785088602,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 1
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Taschenlampe 45k",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff 55k",
+                    "amount": 12
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "19:53",
+            "message_id": 1381692173954715860,
+            "channel_id": 1381692172931174470,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "19:59",
+            "message_id": 1381693680934453289,
+            "channel_id": 1381693680196255814,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:27",
+            "message_id": 1381700768121356371,
+            "channel_id": 1381700767039226028,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff 55k",
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:29",
+            "message_id": 1381701199199211740,
+            "channel_id": 1381701197806702722,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff 55k",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr 55k",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Taschenlampe 45k",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:29",
+            "message_id": 1381701666361049201,
+            "channel_id": 1381701665257685063,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff 55k",
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:34",
+            "message_id": 1381702888585433189,
+            "channel_id": 1381702887729532978,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 12
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:36",
+            "message_id": 1381703094760509620,
+            "channel_id": 1381703093229457470,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:45",
+            "message_id": 1381705311567609976,
+            "channel_id": 1381705310078632151,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr 55k",
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:48",
+            "message_id": 1381706177137741844,
+            "channel_id": 1381706175938298028,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 12
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff 55k",
+                    "amount": 12
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:50",
+            "message_id": 1381706705800396892,
+            "channel_id": 1381706704386789477,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 1
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr 55k",
+                    "amount": 3
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "20:52",
+            "message_id": 1381707265547178026,
+            "channel_id": 1381707264443945202,
+            "items": []
+        },
+        {
+            "id": 16,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "21:05",
+            "message_id": 1381710615042719779,
+            "channel_id": 1381710614245675029,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "21:08",
+            "message_id": 1381711378926145577,
+            "channel_id": 1381711377642553494,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr 55k",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer 55k",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "type": "schwarzmarkt",
+            "datum_von": "09.06.2025",
+            "datum_bis": "09.06.2025",
+            "uhrzeit_bis": "23:15",
+            "message_id": 1381743207154581615,
+            "channel_id": 1381743205153767548,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 6
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 4
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "17:43",
+            "message_id": 1382022237770481684,
+            "channel_id": 1382022236147286068,
+            "items": []
+        },
+        {
+            "id": 20,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "17:48",
+            "message_id": 1382023319133618288,
+            "channel_id": 1382023316507852841,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "17:52",
+            "message_id": 1382024302664089683,
+            "channel_id": 1382024301405929643,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "17:54",
+            "message_id": 1382024992421580933,
+            "channel_id": 1382024990924210312,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "18:00",
+            "message_id": 1382026399522619635,
+            "channel_id": 1382026398071394346,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 1
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 4
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "18:05",
+            "message_id": 1382026740943163554,
+            "channel_id": 1382026739869286551,
+            "items": [
+                {
+                    "user_id": "630064069428379660",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "630064069428379660",
+                    "selection": "Schwere Westen",
+                    "amount": 1
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "630064069428379660",
+                    "selection": "Folterstuhl",
+                    "amount": 4
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 1
+                },
+                {
+                    "user_id": "630064069428379660",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Taschenlampe",
+                    "amount": 5
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "21:46",
+            "message_id": 1382083312159555706,
+            "channel_id": 1382083310968377504,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Taschenlampe",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "21:54",
+            "message_id": 1382085013574779022,
+            "channel_id": 1382085012169691158,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 1
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 4
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 6
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Erweitertes Magazin",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "22:28",
+            "message_id": 1382093960683589633,
+            "channel_id": 1382093958271995947,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Erweitertes Magazin",
+                    "amount": 5
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "22:33",
+            "message_id": 1382094848605290589,
+            "channel_id": 1382094847271243817,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 5
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "type": "schwarzmarkt",
+            "datum_von": "10.06.2025",
+            "datum_bis": "10.06.2025",
+            "uhrzeit_bis": "22:46",
+            "message_id": 1382098062457045052,
+            "channel_id": 1382098061207015527,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 5
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "21:20",
+            "message_id": 1382438868250267700,
+            "channel_id": 1382438866694180996,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 33
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 1
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "21:29",
+            "message_id": 1382441076169768990,
+            "channel_id": 1382441073510580296,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 4
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 33
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 2
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Erweitertes Magazin",
+                    "amount": 34
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2026",
+            "datum_bis": "11.06.2026",
+            "uhrzeit_bis": "21:46",
+            "message_id": 1382445446756171937,
+            "channel_id": 1382445445112004698,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2,
+                    "message_id": 1382445463411753021
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3,
+                    "message_id": 1382445485670797425
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 33,
+                    "message_id": 1382445507967717507
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 12,
+                    "message_id": 1382445529039900816
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 4,
+                    "message_id": 1382445551118848062
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "22:08",
+            "message_id": 1382450874240078025,
+            "channel_id": 1382450873128452308,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2,
+                    "message_id": 1382450894917992479
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3,
+                    "message_id": 1382450916388769852
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 55,
+                    "message_id": 1382450939868348427
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 23,
+                    "message_id": 1382450961414361198
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 2,
+                    "message_id": 1382450984520912977
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "22:51",
+            "message_id": 1382461311157272689,
+            "channel_id": 1382461310247243806,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2,
+                    "message_id": 1382461331436736682
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 21,
+                    "message_id": 1382461358607437966
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2,
+                    "message_id": 1382461380510089346
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Griff",
+                    "amount": 7,
+                    "message_id": 1382461394414338161
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 2,
+                    "message_id": 1382461402207490160
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 5,
+                    "message_id": 1382461424764326020
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Taschenlampe",
+                    "amount": 5,
+                    "message_id": 1382461446365118635
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Schalldämpfer",
+                    "amount": 69,
+                    "message_id": 1382461576723824839
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "22:57",
+            "message_id": 1382463210996760678,
+            "channel_id": 1382463209545662638,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 23,
+                    "message_id": 1382463231746113617
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Zielfernrohr",
+                    "amount": 53,
+                    "message_id": 1382463251798949988
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 2,
+                    "message_id": 1382463260711718942
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Griff",
+                    "amount": 2,
+                    "message_id": 1382463272904822826
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 6,
+                    "message_id": 1382463282144874649
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Zielfernrohr",
+                    "amount": 4,
+                    "message_id": 1382463294559752323
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 4,
+                    "message_id": 1382463303061868664
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 2,
+                    "message_id": 1382463324595421305
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Griff",
+                    "amount": 5,
+                    "message_id": 1382463328529678361
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Erweitertes Magazin",
+                    "amount": 99,
+                    "message_id": 1382463349245219009
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Erweitertes Magazin",
+                    "amount": 77,
+                    "message_id": 1382463351946481684
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "23:01",
+            "message_id": 1382464329969963009,
+            "channel_id": 1382464328988364893,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2,
+                    "message_id": 1382464350933090435
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 3,
+                    "message_id": 1382464372382765141
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schwere Westen",
+                    "amount": 4,
+                    "message_id": 1382464397531811951
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 53,
+                    "message_id": 1382464431509999797
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Griff",
+                    "amount": 4,
+                    "message_id": 1382464512728367154
+                },
+                {
+                    "user_id": "259434006792110080",
+                    "selection": "Zielfernrohr",
+                    "amount": 6,
+                    "message_id": 1382464534396276948
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "type": "schwarzmarkt",
+            "datum_von": "11.06.2025",
+            "datum_bis": "11.06.2025",
+            "uhrzeit_bis": "23:15",
+            "message_id": 1382467823539847199,
+            "channel_id": 1382467822357057566,
+            "items": [
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 21,
+                    "message_id": 1382467844041605223
+                },
+                {
+                    "user_id": "1371581211851362406",
+                    "selection": "Schalldämpfer",
+                    "amount": 32,
+                    "message_id": 1382467858532929597
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Schalldämpfer",
+                    "amount": 2,
+                    "message_id": 1382467871241928736
+                },
+                {
+                    "user_id": "1371581211851362406",
+                    "selection": "Taschenlampe",
+                    "amount": 2,
+                    "message_id": 1382467885179605195
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Zielfernrohr",
+                    "amount": 3,
+                    "message_id": 1382467897342951485
+                },
+                {
+                    "user_id": "1371581211851362406",
+                    "selection": "Zielfernrohr",
+                    "amount": 5,
+                    "message_id": 1382467910408208455
+                },
+                {
+                    "user_id": "368510579511656449",
+                    "selection": "Griff",
+                    "amount": 5,
+                    "message_id": 1382467928456429599
+                },
+                {
+                    "user_id": "1371581211851362406",
+                    "selection": "Laserbohrer",
+                    "amount": 7,
+                    "message_id": 1382467944487063645
+                },
+                {
+                    "user_id": "1371581211851362406",
+                    "selection": "Folterstuhl",
+                    "amount": 2,
+                    "message_id": 1382468026988892262
+                },
+                {
+                    "user_id": "1371581211851362406",
+                    "selection": "Folterstuhl",
+                    "amount": 1,
+                    "message_id": 1382468080831041669
+                }
+            ]
+        }
+    ],
+    "next_id": 38
+}
