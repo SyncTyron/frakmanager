@@ -5,6 +5,12 @@ import os
 def load_config(guild_id):
     path = f"configs/config_{guild_id}.json"
     if not os.path.exists(path):
-        raise FileNotFoundError(f"⚠️ Config für Guild {guild_id} wurde nicht gefunden.")
+        raise FileNotFoundError(
+            f"⚠️ Config für Guild {guild_id} wurde nicht gefunden."
+        )
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+def get_db_params(guild_id):
+    cfg = load_config(guild_id)
+    return cfg.get("db", {})

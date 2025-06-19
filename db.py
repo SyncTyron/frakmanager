@@ -1,36 +1,46 @@
-import os
 import json
-import sqlite3
 from contextlib import closing
-
-_DB_DIR = 'databases'
-os.makedirs(_DB_DIR, exist_ok=True)
-
-
-def _get_db_path(guild_id: str) -> str:
-    return os.path.join(_DB_DIR, f"{guild_id}.db")
+import mysql.connector
+from mysql.connector import connect
+from config_loader import get_db_params
 
 
-def _init(conn: sqlite3.Connection):
-    with conn:
-        conn.execute(
-            "CREATE TABLE IF NOT EXISTS json_data (key TEXT PRIMARY KEY, value TEXT)"
+def _init(conn):
+    with conn.cursor() as cur:
+        cur.execute(
+            """CREATE TABLE IF NOT EXISTS json_data (
+                   `key` VARCHAR(255) PRIMARY KEY,
+                   `value` LONGTEXT
+               )"""
         )
-        conn.execute(
-            "CREATE TABLE IF NOT EXISTS verifications (Vorname TEXT, Nachname TEXT, Telefonnummer TEXT, Rang TEXT, Mitglied_seit TEXT, User_ID TEXT UNIQUE)"
+        cur.execute(
+            """CREATE TABLE IF NOT EXISTS verifications (
+                   Vorname VARCHAR(255),
+                   Nachname VARCHAR(255),
+                   Telefonnummer VARCHAR(255),
+                   Rang VARCHAR(255),
+                   Mitglied_seit VARCHAR(255),
+                   User_ID VARCHAR(255) UNIQUE
+               )"""
         )
+    conn.commit()
 
-
-def get_conn(guild_id: str) -> sqlite3.Connection:
-    path = _get_db_path(guild_id)
-    conn = sqlite3.connect(path)
+def get_conn(guild_id: str):
+    params = get_db_params(guild_id)
+    conn = connect(
+        host=params.get("host", "localhost"),
+        port=params.get("port", 3306),
+        user=params.get("user"),
+        password=params.get("password"),
+        database=params.get("database"),
+    )
     _init(conn)
     return conn
 
 
 def load_json(guild_id: str, key: str, default=None):
-    with closing(get_conn(guild_id)) as conn:
-        cur = conn.execute("SELECT value FROM json_data WHERE key=?", (key,))
+    with closing(get_conn(guild_id)) as conn, conn.cursor() as cur:
+        cur.execute("SELECT value FROM json_data WHERE `key`=%s", (key,))
         row = cur.fetchone()
         if row:
             return json.loads(row[0])
@@ -39,34 +49,36 @@ def load_json(guild_id: str, key: str, default=None):
 
 def save_json(guild_id: str, key: str, data) -> None:
     dump = json.dumps(data, ensure_ascii=False)
-    with closing(get_conn(guild_id)) as conn:
-        with conn:
-            conn.execute(
-                "REPLACE INTO json_data(key, value) VALUES (?, ?)",
-                (key, dump),
-            )
+    with closing(get_conn(guild_id)) as conn, conn.cursor() as cur:
+        cur.execute(
+            "REPLACE INTO json_data(`key`, `value`) VALUES (%s, %s)",
+            (key, dump),
+        )
+        conn.commit()
 
 
 def is_user_verified(guild_id: str, user_id: str) -> bool:
-    with closing(get_conn(guild_id)) as conn:
-        cur = conn.execute(
-            "SELECT 1 FROM verifications WHERE User_ID=? LIMIT 1",
+    with closing(get_conn(guild_id)) as conn, conn.cursor() as cur:
+        cur.execute(
+            "SELECT 1 FROM verifications WHERE User_ID=%s LIMIT 1",
             (user_id,),
         )
         return cur.fetchone() is not None
 
 
 def add_verification(guild_id: str, entry: dict) -> None:
-    with closing(get_conn(guild_id)) as conn:
-        with conn:
-            conn.execute(
-                "INSERT OR IGNORE INTO verifications(Vorname, Nachname, Telefonnummer, Rang, Mitglied_seit, User_ID) VALUES (?,?,?,?,?,?)",
-                (
-                    entry.get("Vorname"),
-                    entry.get("Nachname"),
-                    entry.get("Telefonnummer"),
-                    entry.get("Rang"),
-                    entry.get("Mitglied seit"),
-                    entry.get("User-ID"),
-                ),
-            )
+    with closing(get_conn(guild_id)) as conn, conn.cursor() as cur:
+        cur.execute(
+            """INSERT IGNORE INTO verifications
+               (Vorname, Nachname, Telefonnummer, Rang, Mitglied_seit, User_ID)
+               VALUES (%s,%s,%s,%s,%s,%s)""",
+            (
+                entry.get("Vorname"),
+                entry.get("Nachname"),
+                entry.get("Telefonnummer"),
+                entry.get("Rang"),
+                entry.get("Mitglied seit"),
+                entry.get("User-ID"),
+            ),
+        )
+        conn.commit()

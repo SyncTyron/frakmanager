@@ -12,6 +12,13 @@
             "1377573920630112256"
         ]
     },
+    "db": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "frakmanager_1152595573359251497",
+    "password": "ynUUY9aBdpP6u/q.",
+    "database": "frakmanager_1152595573359251497"
+    },
     "rules_embed": {
         "rules_channel_id": "1377573946190204981",
         "title": "{guild_name} Discord Regeln!",
