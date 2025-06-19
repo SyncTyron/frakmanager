@@ -98,8 +98,6 @@ class NameModal(discord.ui.Modal, title="Verifizierung"):
         add_verification(self.guild_id, user_entry)
         debug(f"📝 Verifizierungsdaten für {interaction.user} gespeichert")
 
-        debug(f"📝 Verifizierungsdaten für {interaction.user} gespeichert in {csv_path}")
-
         # Telefonnummer-Rolle erstellen und zuweisen
         phone_role_name = f"📞 {self.first_name.value} {self.last_name.value}: {self.phone_number.value}"
         existing_role = discord.utils.get(interaction.guild.roles, name=phone_role_name)

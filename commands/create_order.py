@@ -1,5 +1,4 @@
 import asyncio
-# commands/create_order.py
 import discord
 from discord import app_commands
 from discord.ext import tasks
@@ -12,7 +11,7 @@ def load_config(guild_id):
     with open(f"configs/config_{guild_id}.json", encoding="utf-8") as f:
         return json.load(f)
 
-def get_data_path(guild_id):
+def _get_key():
     return "order_data"
 
 def load_order_data(guild_id):
